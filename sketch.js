@@ -66,6 +66,7 @@ function draw() {
   text('e', 188,113, r);
 
   push();
+  angleMode(RADIANS)
   translate(windowWidth/2, windowHeight/2)
   rotate(mouseX/50)
   // angle1 = map(mouseX,0,windowWidth,50,500);
