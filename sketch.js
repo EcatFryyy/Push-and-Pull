@@ -53,6 +53,6 @@ function setup() {
     push();
     translate(width/0.123, height/0.321)
     rotate(PI*0.12)
-    text(" Whitechapel Gallery, 11.02. around 2 pm, 3yo toddler rolling on the floor "look mom, Im like her" (referring to Carolee Schneeman in her piece up to and beyond her limits)", 0,0);
+    text(" Whitechapel Gallery, 11.02. around 2 pm, 3yo toddler rolling on the floor -look mom, Im like her- (referring to Carolee Schneeman in her piece up to and beyond her limits)", 0,0);
     pop();
   }
