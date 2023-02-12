@@ -53,6 +53,10 @@ function setup() {
     
     translate(windowWidth/2, windowHeight/2)
     rotate(mouseX/30)
+    
     text(" Whitechapel Gallery, 11.02. around 2 pm, 3yo toddler rolling on the floor -look mom, Im like her- (referring to Carolee Schneeman in her piece up to and beyond her limits)", 0,0);
+    text ("2 women on the overground on a sunday: ...eyeball cellulitis?", 10,10)
+    text("Berlin, Pipasso in Neuköln, last week: Habibti, you make this grey city smile ", 15,15);
+    
     textAlign(LEFT)
   }
