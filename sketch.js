@@ -66,21 +66,25 @@ function draw() {
   text('e', 188,113, r);
 
   push();
+  let fontSize = map(mouseY, 0, windowHeight, 10, 25);
+  textSize(fontSize);
   angleMode(RADIANS)
   translate(windowWidth/2, windowHeight/2)
   rotate(mouseX/50)
-  // angle1 = map(mouseX,0,windowWidth,50,500);
-  // rotate(angle1)
-  text(" Whitechapel Gallery, 11.02. around 2 pm, 3yo toddler rolling on the floor -look mom, Im like her- (referring to Carolee Schneeman in her piece up to and beyond her limits)", 0,0);
-  text ("2 women on the overground on a sunday: ...eyeball cellulitis?", 15,20)
+  text(" Whitechapel Gallery, 11.02. around 2 pm, 3yo toddler rolling", 0,0)
+  text("on the floor -look mom, Im like her- (referring to Carolee Schneeman", 0,10)
+  text("in her piece up to and beyond her limits)", 0,20) 
+  rotate(mouseX/40)
+  text("2 women on the overground on a sunday: ...eyeball cellulitis?", 15,20)
   rotate(mouseY/25)
-  // angle2 = map(mouseY,0,windowHeight,250,600);
-  // rotate(angle2)
   text("Berlin, Pipasso in Neuköln, last week: Habibti, you make this grey city smile ", 30,40);
   rotate(mouseX/10);
-  // angle3 = map(mouseY,0,windowHeight,50,100);
-  // rotate(angle3)
   text("my roommate, last night: Coffe and Pasteries at 7am before going to the good morning rave...", 40,60)
+  rotate(mouseY/100);
+  text("Lewisham, Friday, noonish: I went to a reading", 50, 70)
+  text("hotel over christmas and felt as if followed by my law studies", 50, 80)
+  rotate(mouseX/100);
+  text("TripSpace Dance Studio, Wednesday, 10 am: Yoou go hoop and flick, turn and cartwheel, stay and spiral")
   textAlign(LEFT);
   pop();
 
